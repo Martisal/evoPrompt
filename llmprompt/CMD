@@ -1,0 +1,4 @@
+for i in evo-results*/mut*/run_1/*_9.json;
+do
+    echo ====$i==== genotype fitness; sed -e 's/, "/\n"/g' -e 's/, {"/\n{"/g' $i | grep --color=auto -Ew 'genotype|fitness';
+done | less -Sic
