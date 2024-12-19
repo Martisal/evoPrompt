@@ -8,7 +8,7 @@ The code is built on top of [DSGE](https://github.com/nunolourenco/sge3). To use
 Then, replace the following files:
 * `/PATH/TO/sge3/sge/engine.py` with [engine.py](./engine.py)
 * `/PATH/TO/sge3/sge/operators/mutation.py` with [mutation.py](./mutation.py)
-* `/PATH/TO/sge3/sge/parameters.py` with [./parameters.py](./mutation.py)
+* `/PATH/TO/sge3/sge/parameters.py` with [parameters.py](./mutation.py)
 
 To replicate the experiments, just move to the `/PATH/TO/sge3/sge/` directory and run the following command: 
 ```
