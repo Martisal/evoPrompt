@@ -15,7 +15,7 @@ To replicate the experiments, just move to the `/PATH/TO/sge3/sge/` directory an
 python -m llmprompt.prompteng --task <TASK> --experiment_name <./PATH/TO/RESULTS> --seed <INTEGER> --parameters llmprompt/sge-params.yml
 ```
 
-Currently, the implemented tasks are those referred in the paper:
+For each task, there is a corresponding grammar under `./llmprompt/grammars`. Currently, the implemented tasks are those referred in the paper:
 * causal_judgment
 * implicatures
 * epistemic_reasoning
